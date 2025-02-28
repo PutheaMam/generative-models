@@ -94,6 +94,7 @@ def sample(
 
     torch.manual_seed(seed)
 
+    input_path = "assets/test_image.png"
     path = Path(input_path)
     all_img_paths = []
     if path.is_file():
